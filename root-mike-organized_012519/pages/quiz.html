@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>007 Museum - QUIZ</title>
+        <meta charset="utf-8"/>
+        <!-- RESPONSIVE META CODING -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <!-- GOOGLE FONTS LINKING -->
+        <link href="https://fonts.googleapis.com/css?family=Cairo|Michroma" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet">
+        <!-- STYLE SHEET LINKING -->
+        <link href="../css/main.css" type="text/css" rel="stylesheet">
+        <link href="../css/contact.css" type="text/css" rel="stylesheet">
+        <!--***** LINK FOR INDIVIDUAL CSS*****-->
+        <link href="../css/quiz.css" rel="stylesheet" type="text/css">
+        <!-- STYLE SHEET FOR NAV PAGE-->
+        <link href="../css/sm-core-css.css" rel="stylesheet" type="text/css" />
+        <link href="../css/sm-clean.css" rel="stylesheet" type="text/css" />
+
+        <!-- NAV JQUERY  -->
+        <script type="text/javascript" src="../scripts/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="../scripts/jquery.smartmenus.min.js"></script>
+        <script type="text/javascript" src="../scripts/main.js"></script>
+        
+    </head>
+    
+    <body>
+        <div id="container">
+            <header>
+<!-- social media bar-->
+                <ul class="socialMediaBar">
+                    <li><a href="https://www.facebook.com/bondnybro/" target="_blank"><img src="../images/page_template/facebook.png" alt="facebook logo"></a></li>
+                    <li><a href="https://www.instagram.com/explore/locations/703195035/james-bond-007-museum-nybro-sweden?hl=en" target="_blank"><img src="../images/page_template/instagram.png" alt="instagram logo"></a></li>
+                    <li><a href="https://twitter.com/007museum?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="../images/page_template/twitter.png" alt="twitter logo"></a></li>
+                    <li><a href="https://www.youtube.com/user/PEAB007" target="_blank"><img src="../images/page_template/youtube.png" alt="youtube logo"></a></li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank"><img src="../images/page_template/whatsapp.png" alt="whatsapp logo"></a></li>
+                </ul>
+<!--header background picture-->
+                <img src="../images/page_template/header_spiral.jpg" alt="spiral gun barrel background" class="backgroundSpiral">
+<!--main header-->
+                <h1>QUIZ</h1>
+<!--logo-->
+                <a href="../index.html" name="top" class="logo" ><img src="../images/page_template/logo007.png" alt="007 Logo"></a>
+                    
+            </header>
+            
+            <nav>
+               <input id="main-menu-state" type="checkbox" />
+                <label class="main-menu-btn" for="main-menu-state">
+                  <span class="main-menu-btn-icon"></span> 
+                </label>
+                <ul id="navigation" class="sm sm-clean">
+                    <li ><a href="visit.html">VISIT</a>
+                        <ul>
+                            <li><a href="activities.html">Activities</a></li>
+                            <li><a href="cafe.html">Cafe</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="exhibit.html">EXHIBIT</a></li> 
+                    <li><a href="collection.html">COLLECTION</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="FAQs.html" >FAQS</a></li>
+                 </ul>
+                </nav>
+            <main>
+               <!-- QUIZ FORM STARTS -->
+<!-- FORM ACTION: SET UP TO GO TO ANOTHER PAGE TO SEE IF ANSWERS ARE CORRECT OR NOT; is not real -->
+
+<form action="wrong.html" method="get" id="007MuseumForm" name="007MuseumForm">
+<!-- IF GOING TO SUBMIT TO EMAIL: <form action="mailto:amiedefrain@yahoo.com" method="post" id="007MuseumForm" name="007MuseumForm"> -->
+	
+<!-- OUTSIDE BORDER BOX WITH TEXT -->
+    <fieldset>
+        <legend>JAMES BOND 007 MUSEUM</legend>
+
+<!-- MAIN HEADLINE AND OPENING TEXT -->
+    <section class="info">
+            <h1 class="goldQ">007 Quiz</h1>
+            <h2>Test your James Bond trivia knowledge by taking this six question quiz. </h2>
+    </section>
+    
+	<!-- ACTOR OF BOND QUESTION -->
+	
+	<section class="allQuestions">
+	
+		<article class="question">
+			<label for="davidNiven" class="goldQ">Which actor or actors portrayed James Bond in the most films?</label>
+			<!-- Two correct answers: Tie with Sir Roger Moore and Sean Connery -->
+			<section class="indentlist">
+				<ul class="mostBonds">
+					<li><input type="checkbox" name="mostBonds" value="davidNiven" id="davidNiven"> David Niven</li>
+					<li><input type="checkbox" name="mostBonds" value="seanConnery" id="seanConnery"> Sean Connery</li>
+					<li><input type="checkbox" name="mostBonds" value="georgeLazenby" id="georgeLazenby"> George Lazenby</li>
+					<li><input type="checkbox" name="mostBonds" value="timonthyDalton" id="timothyDalton"> Timothy Dalton</li>
+					<li><input type="checkbox" name="mostBonds" value="rogerMoore" id="rogerMoore"> Sir Roger Moore</li>
+				</ul>
+			</section>
+		</article>
+		
+		<!-- FIRST BOND QUESTION -->
+		<br>
+		<article class="question">
+			<label for="firstBond" class="goldQ">Who is the first actor to portray Ian Fleming's James Bond character?</label>
+			<!-- Two correct answers: Barry Nelson is the stage name for Robert Nielsen -->
+			<section class="indentlist">
+				<select name="firstBond" id="firstBond">
+						<option value="selectOne">Possible answers</option>
+						<option value="Barry Nelson">Barry Nelson</option>
+						<option value="David Niven">David Niven</option>
+						<option value="Sean Connery">Sean Connery</option>
+						<option value="George Lazenby">George Lazenby</option>
+						<option value="Robert Nielsen">Robert Nielsen</option>
+				</select>
+			</section>
+		</article>
+		<br>
+		
+		<!-- BOND GIRL QUESTION -->
+		<article class="question">
+			<label for="lovesBond" class="goldQ">Which "Bond girl" did James fall in love with?</label>
+			<!-- Two correct answers: The first was On Her Majesty's Secret Service (1969), in which Countess Tracy di Vicenzo (Diana Rigg) marries Bond but is shot dead by Irma Bunt and Ernst Stavro Blofeld at the story's end. The second was Vesper Lynd (Eva Green) in Casino Royale (2006). -->
+				<section class="indentlist">
+					<select name="lovesBond" id="lovesBond">
+					<option value="selectOne">Possible answers</option>
+					<option value="Ursula Andress">Ursula Andress</option>
+					<option value="Vesper Lynd">Vesper Lynd</option>
+					<option value="Honey Ryder">Honey Ryder</option>
+					<option value="Mary Goodnight">Mary Goodnight</option>
+					<option value="Countess Tracy di Vicenzo">Countess Tracy di Vicenzo</option>
+					</select>
+				</section>
+		</article>
+		<br>
+		
+		<!-- BOOK QUESTION -->
+		
+		<article class="question">
+			<label for="bondBooks" class="goldQ">How many officially licensed books have been written about James Bond?</label>
+			<!-- There are currently 39 officially licenced James Bond books authored by six writers since 1953. The first and most famous 14 were written by Ian Fleming, spawning a wide world of Bond media including films, comic strips, comic books, and video games.-->  
+			<section class="indentlist">
+				<ul>
+				<li><input type="radio" name="bondBooks" value="38" id="bondBooks"> 38</li>
+				<li><input type="radio" name="bondBooks" value="14" id="14"> 14</li>
+				<li><input type="radio" name="bondBooks" value="39" id="39"> 39</li>
+				<li><input type="radio" name="bondBooks" value="30" id="30"> 30</li>
+				<li><input type="radio" name="bondBooks" value="24" id="24"> 24</li>
+				</ul>
+			</section>
+		</article>
+		
+		<!-- MOVIE QUESTION -->
+		<br>
+		<article class="question">
+			<label for="bondMovies" class="goldQ">How many movies have been made about James Bond?</label>
+			<!-- 26 -->
+			<section class="indentlist">
+				<ul class="bondMovies">
+				<li><input type="radio" name="bondMovies" value="25" id="bondMovies"> 25</li>
+				<li><input type="radio" name="bondMovies" value="26" id="26"> 26</li>
+				<li><input type="radio" name="bondMovies" value="20" id="20"> 20</li>
+				<li><input type="radio" name="bondMovies" value="13" id="13"> 13</li>
+				<li><input type="radio" name="bondMovies" value="27" id="27"> 27</li>
+				</ul>
+			</section>
+		</article>
+		
+		<!-- VILLAIN QUESTION --> 
+		<br>
+		<article class="question">
+			<label for="bondVillains" class="goldQ">Which Bond villain was killed by a pile of bat guano?</label>
+			<!-- Dr. Julius No -->
+			<section class="indentlist">
+				<ul class="bondVillains">
+				<li><input type="radio" name="bondVillains" value="drNo" id="bondVillains"> Dr. Julius No</li>
+				<li><input type="radio" name="bondVillains" value="leChiffre" id="leChiffre"> Le Chiffre</li>
+				<li><input type="radio" name="bondVillains" value="goldfinger" id="goldfinger"> Auric Goldfinger</li>
+				<li><input type="radio" name="bondVillains" value="mrBig" id="mrBig"> Mr. Big aka Buonaparte Ignace Gallia</li>
+				<li><input type="radio" name="bondVillains" value="horror" id="horror"> Sol "Horror" Horowitz</li>
+				</ul>
+			</section>
+		</article>
+	</section>
+	<br>
+	<!-- SUBMIT BUTTON --> 
+	<input type="submit" id="submitMembership" name="submit" value="Click here to find your score" />
+	</fieldset>
+</form>
+<!-- END OF FORM -->
+         <div id="topLinkContainer">
+            <a href="#top" id="topLink">GO TO TOP</a>
+        </div>             
+
+            </main>
+            <footer>
+                <ul>
+                    <li><a href="https://www.google.com/maps/place/Nybro+Municipality,+382+30+Nybro,+Sweden/@56.7585318,15.7648045,11z/data=!4m5!3m4!1s0x4657b6c17d1933bd:0x877412c0cd69c4c4!8m2!3d56.745012!4d15.907874" target="_blank">Nybro, Sweden</a></li>
+                    <li><a href="#top" class="top">Go to top</a></li>
+                    <li><a href="mailto:007museum@telia" target="_blank">007museum@telia.com</a></li>
+                </ul>
+            </footer>
+        </div>
+         
+    </body>
+</html>
+<!-- contact, cafe -->

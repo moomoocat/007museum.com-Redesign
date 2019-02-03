@@ -1,0 +1,35 @@
+.leadin {
+    font: normal 1.2em/2em Michroma, sans-serif; 
+    letter-spacing: 7px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #ffffff;
+} 
+.mainhead {
+    font: normal 3.5em/1.2em Michroma, sans-serif; 
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #c4a54e;
+    text-shadow: 2px 2px 10px #333333;
+    text-align: center;
+    margin-bottom: .5em;
+}
+.homeSlider img {
+    margin: 0 auto;
+}
+.bx-wrapper, .bx-window {
+    margin:0 auto; max-width:600px !important;
+}
+
+.pager{
+    width:940px !important; 
+}
+
+@media screen and (min-width: 840px){
+    .leadin {
+        font-size: 1.5em; 
+} 
+    .mainhead {
+        font-size: 4em;
+}
+}

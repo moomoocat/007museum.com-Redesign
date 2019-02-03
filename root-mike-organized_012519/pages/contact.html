@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>007 Museum - CONTACT</title>
+        <meta charset="utf-8"/>
+        <!-- RESPONSIVE META CODING -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <!-- GOOGLE FONTS LINKING -->
+        <link href="https://fonts.googleapis.com/css?family=Cairo|Michroma" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet">
+        <!-- STYLE SHEET LINKING -->
+        <link href="../css/main.css" type="text/css" rel="stylesheet">
+        <!--***** LINK FOR INDIVIDUAL CSS*****-->
+        <link href="../css/contact.css" rel="stylesheet" type="text/css">
+        <!-- STYLE SHEET FOR NAV PAGE-->
+        <link href="../css/sm-core-css.css" rel="stylesheet" type="text/css" />
+        <link href="../css/sm-clean.css" rel="stylesheet" type="text/css" />
+
+        <!-- NAV JQUERY  -->
+        <script type="text/javascript" src="../scripts/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="../scripts/jquery.smartmenus.min.js"></script>
+        <script type="text/javascript" src="../scripts/main.js"></script>
+    </head>
+    
+    <body>
+        <div id="container">
+            <header>
+<!-- social media bar-->
+                <ul class="socialMediaBar">
+                    <li><a href="https://www.facebook.com/bondnybro/" target="_blank"><img src="../images/page_template/facebook.png" alt="facebook logo"></a></li>
+                    <li><a href="https://www.instagram.com/explore/locations/703195035/james-bond-007-museum-nybro-sweden?hl=en" target="_blank"><img src="../images/page_template/instagram.png" alt="instagram logo"></a></li>
+                    <li><a href="https://twitter.com/007museum?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="../images/page_template/twitter.png" alt="twitter logo"></a></li>
+                    <li><a href="https://www.youtube.com/user/PEAB007" target="_blank"><img src="../images/page_template/youtube.png" alt="youtube logo"></a></li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank"><img src="../images/page_template/whatsapp.png" alt="whatsapp logo"></a></li>
+                </ul>
+<!--header background picture-->
+                <img src="../images/page_template/header_spiral.jpg" alt="spiral gun barrel background" class="backgroundSpiral">
+<!--main header-->
+                <h1>CONTACT</h1>
+<!--logo-->
+                <a href="../index.html" name="top" class="logo" ><img src="../images/page_template/logo007.png" alt="007 Logo"></a>
+                    
+            </header>
+            
+            <nav>
+               <input id="main-menu-state" type="checkbox" />
+                <label class="main-menu-btn" for="main-menu-state">
+                  <span class="main-menu-btn-icon"></span> 
+                </label>
+                <ul id="navigation" class="sm sm-clean">
+                    <li ><a href="visit.html">VISIT</a>
+                        <ul>
+                            <li><a href="activities.html">Activities</a></li>
+                            <li><a href="cafe.html">Cafe</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="exhibit.html">EXHIBIT</a></li> 
+                    <li><a href="collection.html">COLLECTION</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html" id="currentPage">CONTACT</a></li>
+                    <li><a href="FAQs.html">FAQS</a></li>
+                 </ul>
+                </nav>
+            <main>
+<!--PAGE CONTENT GOES HERE -->
+                <article class="contact">
+                      <h1>Contact Us</h1>
+                      <p>Address in Central Sweden <br>
+                      James Bond 007 Museum, Emmabodav 20 <br>
+                      <a href="https://www.google.com/maps/place/382+45+Nybro,+Sweden/@56.7392553,15.8847479,17z/data=!3m1!4b1!4m5!3m4!1s0x4657b6c7fd7bc077:0xb00fef318ca0af3!8m2!3d56.7392553!4d15.8869366">382 45 Nybro Sweden</a> <br>
+                      Tel:<a href="tel:+46048112960"> +46 (0)481-12960</a> <br>
+                      Mobile: <a href="tel:+10734477007"> 0734-477-007</a> <br> 
+                      <a href="mailto:007museum@telia.com">007museum@telia.com</a>
+                      </p>
+                  </article>
+           <!-- BEGIN MEMBERSHIP FORM -->
+
+<form action="mailto:amiedefrain@yahoo.com" method="post" id="museumForm" name="museumForm">
+
+<!-- OUTSIDE BORDER BOX WITH TEXT -->
+    <fieldset>
+        <legend>JAMES BOND 007 MUSEUM</legend>
+
+<!-- MAIN HEADLINE AND OPENING TEXT -->
+    <section class="info">
+            <h1>007 Museum Membership</h1>
+            <h2>U.S. RESIDENTS ONLY:<br> Become a member of the museum and receive our quarterly newsletter and emails about upcoming events and new exhibits.</h2>
+
+<!-- PERSONAL INFO INPUT  -->
+       <ul class="names">
+           <li>
+               <label for="firstName">First name</label>
+	            <input type="text" id="firstName" name="firstName" value="" placeholder="" required autofocus /></li>
+           <li>
+               <label for="lastName" >Last name</label>
+	            <input type="text" id="lastName" name="lastName" value="" placeholder="" required />
+            </li>
+       </ul>
+    </section >
+    <section class="location">
+        <label for="address">Address</label>
+	    <input type="text" id="address" name="address" value="" placeholder="" required />
+	    
+	<ul class="addressDetails">
+        <li>
+        <label for="city">City</label>
+	    <input type="text" id="city" name="city" value="" placeholder="" required />
+        </li>
+        <!-- NOTE: Mention in presentation that this form does not work for international as JavaScript would be needed to change the pattern based up on the country -->
+        <li>
+        <label for="state">State</label>
+	   <input type="text" id="state" name="state" value="" placeholder="" required pattern="[A-Z]{2}"/> <!-- REQUIRED AND PATTERN ARE NEED THIS FOR HTML CONSTRAINT VALIDATION API -->
+	    </li>
+        <li>
+        <label for="zipcode">Zipcode</label>
+	    <input type="text" id="zipcode" name="zipcode" value="" placeholder="" required pattern="[0-9]{5}" style="width: 5em"/>
+	    </li>
+    </ul>
+    </section>
+	<section class="newsletter">
+	<!-- YES OR NO FOR NEWSLETTER  -->
+	    <label for="yesNewsletter">Receive quarterly newsletter?</label>
+	    <input type="radio" id="yesNewsletter" name="newsletter" value="yes newsletter" checked />Yes
+	    <input type="radio" id="noNewsletter" name="newsletter" value="no newsletter" />No
+	<br>
+	<br>
+	<!-- INPUT TO RECEIVE EMAIL  -->
+	    <label for="email">Receive email about new events and exhibits</label>
+	    <input type="email" id="email" name="email" value="" placeholder="Your email@url.com" required />
+	<br>
+	<br>
+	<!-- INPUT FOR QUESTIONS -->
+	    <label for="message">Questions or comments about the 007 Museum?</label>
+	    <textarea name="message" id="message" rows="5" cols="50" placeholder="Write your questions or comments here..."></textarea>
+	<br>
+	<br>
+	<!-- SUBMIT AND RESET BUTTONS  -->
+	    <input type="submit" id="submitMembership" name="submit" value="Join the 007 museum">
+	    <input type="reset" id="reset" name="reset" value="reset">
+	   </section>
+	</fieldset>
+</form>
+<div id="topLinkContainer">
+    <a href="#top" id="topLink">GO TO TOP</a>
+</div>
+            </main>
+            <footer>
+                <ul>
+                    <li><a href="https://www.google.com/maps/place/Nybro+Municipality,+382+30+Nybro,+Sweden/@56.7585318,15.7648045,11z/data=!4m5!3m4!1s0x4657b6c17d1933bd:0x877412c0cd69c4c4!8m2!3d56.745012!4d15.907874" target="_blank">Nybro, Sweden</a></li>
+                    <li><a href="#top" class="top">GO TO TOP</a></li>
+                    <li><a href="mailto:007museum@telia" target="_blank">007museum@telia.com</a></li>
+                </ul>
+            </footer>
+        </div>
+         
+    </body>
+</html>
+<!-- contact, cafe -->

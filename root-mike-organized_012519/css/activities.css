@@ -1,0 +1,217 @@
+
+
+.thirdhead {
+	font: bold 1.3em/1.2em Michroma, sans-serif;
+	letter-spacing: 6px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.span1 {
+	font-size: 1em;
+}
+
+.span2 {
+	font-size: .65em;
+}
+
+/* START OF jQuery styles */
+
+.datelist {
+	color: #ffffff;
+	background-color: #c4a54e;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.fourhead {
+		font: bold 1em/1.75em Michroma, sans-serif;
+		letter-spacing: 6px;
+		margin-top: 15px;
+		text-align: center;
+		color: #020305;
+}
+
+.event_name {
+        text-decoration: underline;
+		cursor: pointer;
+		color: #666666;
+ }
+.event {
+    	border-radius: 5px;
+    	padding: 5px;
+    	margin-top: 10px;
+	    background-color: #ffffff;
+	 	color: #dd1821;
+		font: bold 1em Cairo, sans-serif;
+
+ }
+ .description {
+    	display: none;
+    	border-radius: 5px;
+    	padding: 5px;
+    	margin-top: 5px;
+	    background-color: #666666;
+	    color: #ffffff;
+ }
+ .show {
+    	display: block !important;
+ }
+
+
+/* END OF jQuery styles */
+
+
+ .mainbody_center, .ulist, .ulist2 {
+		font: normal 1.5em/1.75em Cairo, sans-serif;
+}
+	
+.mainbody_center {
+		text-align: center;
+}
+	
+.hours {
+		text-align: center;
+	
+}
+
+/* Text after asterisk */
+.asterisk {
+		font: normal 1em/1.2em Cairo, sans-serif;
+		margin-top: 35px;
+}
+/* All hyperlinks */
+
+		
+.mainimage {
+	min-width: 300px;
+}
+		
+.secondimage {
+		min-width: 300px;
+		margin-top: 15px;
+}
+
+/* responsive video styles */
+.video {
+	position: relative;
+	/* 16/9 aspect ratio */
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/* FLEXBOX LIST WITH IMAGES */
+
+.ulist2 {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/* for large screen change to row */
+}
+
+.ulist2 li {
+	margin-bottom: 30px;
+	text-align: left;
+}
+/* last item has less margin-bottom */
+.ulist2 li:last-child {
+	margin-bottom: -20px;
+	text-align: left;
+}
+
+.ulist2 li img {
+	width: 50%;
+	text-align: center;
+	margin-right: 10px;
+	float: left;
+}
+
+/* MEDIA QUERIES */
+		
+/* 640px TABLET */
+	
+@media screen and (min-width: 640px) {
+	.thirdhead {
+		font-size: 1.2em;
+		line-height: 1.5em;
+		margin-bottom: 0;
+	}
+	
+	.span1 {
+		font-size: 1.5em;
+	}
+	
+	.fourhead {
+		font-size: 1em; 
+		padding-top: 10px;
+		text-align: left;
+	}
+	
+	.ulist li::before { 
+		margin-left: -1em;
+}
+
+/* CHANGE FLEXBOX LIST WITH IMAGES */
+
+	.ulist2 {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		/* for large screen change to row */
+	
+	}
+	.ulist2 li {
+		margin-bottom: 30px;
+		text-align: left;
+	} 
+
+	.ulist2 li img {
+		max-width: 20%;
+	}
+	
+	.ulist {
+		column-count: 2;
+		column-gap: 30px;
+		padding-left: 20px;
+	}
+	
+	/* make .first_column and .datelist side by side with flexbox */
+
+	.container {
+	display: flex;
+	}
+	
+	.first_column {
+	flex: 90%;
+	flex-grow: 2;
+	}
+	
+	.datelist {
+	flex: 10%;
+	flex-grow: 1;
+	margin-top: 0;
+	margin-left: 20px;
+	}
+	
+}
+/* 840px DESKTOP */
+	
+@media screen and (min-width: 840px) {	
+	.mainbody_center br {
+	display: none;
+	}
+
+	
+}

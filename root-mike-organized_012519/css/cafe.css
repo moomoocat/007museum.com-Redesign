@@ -1,0 +1,59 @@
+/* Fonts
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Michroma', sans-serif;
+*/
+
+
+/**** MOBILE Page Content goes Here ****/
+/* article */
+
+
+.mainImage {
+    display: block;
+    margin: auto;
+}
+
+article li {
+    list-style: none;
+}
+
+.menuItem {
+    font: bold 1.5em/1.75em Cairo, sans-serif;
+    padding: 0 20px;
+}
+
+.subItems {
+    margin-left: 30px;
+	color: #c4a54e;
+}
+
+.cafeHeads {
+    text-align: center;
+}
+
+/* MEDIA QUERY */
+
+/* Mid-Screen */
+@media screen and (min-width: 640px) {
+    
+}
+
+/* Large Screen */
+@media screen and (min-width: 840px){
+ 
+    /**** Large Page Content goes Here ****/
+    .menuContainer {
+        display: flex;
+    }
+    .menuItem {
+        flex-direction: row;
+        min-width: 33%;
+    }
+	
+	.mainhead {
+		font-size: 5em;
+		line-height: 1em;
+	}
+	
+}
+

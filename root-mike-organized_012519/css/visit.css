@@ -1,0 +1,118 @@
+
+.mainbody, .mainbody_center, .ulist {
+		font: normal 1.2em/1.75em Cairo, sans-serif;
+}
+	
+.mainbody_center {
+		text-align: center;
+	margin-bottom: 20px;
+}
+	
+.hours {
+		text-align: center;
+	
+}
+.ulist {
+		font-family: Cairo, sans-serif;
+		list-style: none;
+		padding-left: 20px;
+	}
+	
+/* Add bullets back, change color and shape */
+
+
+/* Line height decreases when li text is wrapped */
+.ulist_li {
+		padding: 15px 0 0 0;
+		margin: 0;
+}
+/* Text after asterisk */
+.asterisk {
+		font: normal 1em/1.2em Cairo, sans-serif;
+}
+		
+.mainimage {
+	min-width: 300px;
+}
+		
+.secondimage {
+		min-width: 300px;
+		margin-top: 30px;
+}
+
+/* responsive video styles */
+.video {
+	position: relative;
+	/* 16/9 aspect ratio */
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+
+/* MEDIA QUERIES */
+		
+/* 60px TABLET */
+	
+@media screen and (min-width: 640px) {
+	.mainimage, .secondimage {
+	display: block;
+	margin: auto;
+	}
+	
+	.ulist {
+		column-count: 2;
+		column-gap: 30px;
+		padding-left: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.mainbody_center br:nth-child(1) {
+		display: none;
+	}
+	
+	.asterisk {
+		margin-bottom: 30px;
+	}
+	
+	.secondimage {
+		margin-bottom: 20px;
+	}
+}
+
+/* 840px DESKTOP */
+	
+@media screen and (min-width: 840px) {
+	
+	.mainimage, .secondimage {
+		width: 840px;
+	}
+	.prices {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding: 0;
+	}
+	.item {
+		flex-grow: 1;
+		flex-basis: 0;
+		line-height: 1.2em;
+	}
+	ul.ulist.prices li::before {
+  		content: "";
+	}
+	.mainbody_center br {
+		display: none;
+	}
+	
+}

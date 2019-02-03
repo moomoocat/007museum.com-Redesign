@@ -1,0 +1,64 @@
+
+h1, h2 {
+        text-align: center;
+}
+p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.colItems {
+    font-size: 1em;
+}
+.slider img {
+    margin: 0 auto;
+}
+.bx-wrapper, .bx-window {
+    margin:0 auto; max-width:225px !important;
+}
+
+.pager {
+    width:940px !important; 
+}
+
+#slider1 li{
+    margin-left:0px !important;
+} 
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+/* Mid-Screen */
+@media screen and (min-width: 620px) {
+    /**** Page Content goes Here ****/
+   
+}
+
+    
+    
+
+/* Large Screen */
+@media screen and (min-width: 840px){
+    /**** Large Page Content goes Here ****/
+    
+    .secContain {
+        display: flex;
+    }
+    .secItem {
+        flex-direction: row;
+        min-width: 45%;
+    }
+    p {
+        margin: auto;
+        padding: 0 25px;
+    }
+    main {
+        margin-bottom: 10px;
+    }
+   
+}
+

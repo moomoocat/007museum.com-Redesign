@@ -1,0 +1,40 @@
+.allQuestions label {
+		font-weight: bold;
+}
+			
+select {
+		margin-left: 33px;
+}
+			
+			
+.goldQ {
+		font: bold 1.2em/1.4em Michroma, sans-serif;
+		text-shadow: 2px 2px 10px #333333;
+}
+
+.goldQ {
+		letter-spacing: 0.1em;
+		color: #c4a54e;
+}
+	
+.indentlist {
+		margin-left: 10px;
+}
+
+/* 840 viewport media query */
+/* Large Screen */
+			
+@media screen and (min-width: 840px){
+
+	.allQuestions {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		}
+				
+	.allQuestions>article {
+		flex: 0 50%;
+		margin-bottom: 10px;
+
+		}
+}

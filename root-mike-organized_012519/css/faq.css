@@ -1,0 +1,84 @@
+/* Fonts
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Michroma', sans-serif;
+*/
+
+
+/**** MOBILE Page Content goes Here ****/
+
+
+/* article */
+article {
+    font: normal 1.5em/1.75em Cairo, sans-serif;
+    padding: 10px 20px 20px 0;
+    
+}
+
+article li {
+    list-style: none;
+}
+/* LINK TO QUIZ AT BOTTOM OF PAGE */
+.quizlink {
+	color: #dd1821;
+}
+.quizlink:visited {
+    color: #333333;
+}
+.quizlink:hover {
+    color: #dd1821;
+}
+.quizlink:active {
+    color: #1c1c1c;
+}
+
+
+.goldQ, .goldA {
+		font: bold .75em/1.4em Michroma, sans-serif;
+		text-shadow: 2px 2px 10px #333333;
+}
+
+.goldQ {
+	letter-spacing: 0.1em;
+	color: #c4a54e;
+}
+
+.ulist li:nth-child(even) {
+	padding-bottom: 20px;
+}
+
+div .tryagain {
+   				background-color: #dd1821;
+    			color: white;
+    			font-size: .55em;
+    			border-radius: 8px;
+   				padding: .8em;
+    			font-family: 'Michroma', sans-serif;
+   	 			cursor: pointer;
+				text-decoration: none;
+				font-weight: normal;
+				text-align: center;
+}
+			
+.center_tryagain {
+				text-align: center;
+}
+
+/* MEDIA QUERY */
+
+/* Mid-Screen */
+@media screen and (min-width: 640px) {
+	
+
+}
+
+/* Large Screen */
+@media screen and (min-width: 840px){
+ 
+    
+		/* to put text over image; doesn't work for video unless using :before after the video container 
+		position: absolute;
+  		top: 21%;
+ 		left: 50%;
+ 		transform: translate(-50%, -50%);*/
+}
+

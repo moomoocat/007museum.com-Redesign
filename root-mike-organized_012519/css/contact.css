@@ -1,0 +1,150 @@
+/* Forms */
+form {
+    
+    margin: .4em auto;
+    padding: .9em;
+    color: #ffffff;
+}
+form section {
+    margin-bottom: 1em;
+}
+form ul, form li {
+    display: block;
+}
+legend  {
+    font-family: 'Michroma', sans-serif;
+}
+
+fieldset {
+    border: solid 1px khaki;
+    font-family: 'Cairo', sans-serif;
+    padding: .7em;
+}
+label {
+    margin: 0 0 .5em 2em;
+    font-family: inherit;
+    display: block;
+    padding: .2em;
+}
+input {
+    margin: 0 0 1em 2.5em;
+    padding: 6px;
+}
+
+/* info section*/
+.info {
+    margin-bottom: .6em;
+}
+.names {
+    margin-left: 1em;
+}
+.names input {
+    width: 60%;
+}
+
+/* location section */
+
+#address {
+    width: 70%;
+    max-width: 70%;
+    margin-left: 2.5em;
+}
+.location {
+    margin-left: 1em;
+}
+.location input {
+    width: 30%;
+}
+#city {
+    width: 60%;
+}
+#email input {
+    width: 50%;
+}
+textarea {
+    width: 70%;
+    max-width: 90%;
+    margin-left: 2.5em;
+    
+}
+#submitMembership, #reset {
+    background-color: red;
+    color: white;
+    font-size: .8em;
+    border-radius: 8px;
+    padding: .8em;
+    font-family: 'Michroma', sans-serif;
+    cursor: pointer;
+}
+
+.addressDetails {
+    list-style-type: none;
+}
+.addressDetails li {
+    width: 50%;
+    margin-bottom: .6em;
+    
+} 
+/* Added styles from drive*/
+
+.contact h1 {
+    border: solid 1px #c4a54e;
+    color: #c4a54e; 
+    font: normal 1.5em/2em Michroma, sans-serif;
+    letter-spacing: 7px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.contact p {
+    font: normal 1em/1.5em Cairo, sans-serif;
+    color: #ffffff;
+    padding: .7em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.contact a {
+    color: #ffffff;
+}
+.contact a:visited {
+    color: #333333;
+}
+.contact a:hover{
+    color: #c4a54e;
+}
+.contact a:active {
+    color: #dd1821;
+}
+.newsletter {
+    margin-left: 1em;
+}
+.info h1 {
+font: bold 1.5em/1.75em Michroma, sans-serif;
+letter-spacing: 6px;
+margin-top: 15px;
+text-align: center;
+    margin-bottom: .7em;
+}
+.info h2 {
+    font: normal 1.5em/1.75em Cairo, sans-serif;
+    padding: .7em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/*Media Query*/
+@media screen and (min-width: 620px) {
+    .addressDetails li {
+        width: 40%;
+        display: inline-block;
+    } 
+    .addressDetails li:nth-child(odd) {
+        margin-right: 1.5em;
+    }
+    .names input {
+        width: 70%
+    }
+    .names li {
+        width: 40%;
+        display: inline-block;
+    } 
+}
